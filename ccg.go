@@ -5,7 +5,7 @@ import "os"
 import "strconv"
 
 func computeCollatz(n int) []int {
-	var steps []int 
+    var steps []int 
     steps = append(steps, n)
     for n != 1 && n != 0 {
         if n % 2 == 0 {
